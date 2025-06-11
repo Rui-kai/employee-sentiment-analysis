@@ -38,13 +38,6 @@ This repository implements a complete pipeline to process, analyze, and model em
    - Builds a simple linear regression model to predict next month’s average sentiment score per employee
    - A linear regression model predicts the next month’s average sentiment score based on message volume and current sentiment. Achieved MSE: 0.0617.
 
-## Repository Structure
-employee-sentiment-analysis/
-├── test(in).csv                # Input data
-├── analysis.ipynb              # Jupyter notebook covering Tasks 1–6
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project overview and documentation
-
 ## Methodology & Justification
 Sentiment Thresholds: Chosen cautiously to reflect business tone; ±0.1 ensures neutral region absorbs minor polarity fluctuations.
 
